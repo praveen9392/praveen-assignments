@@ -27,5 +27,3 @@ print(convert_list(nested_list))
 
 <<<<<<< HEAD
 ### Hi Sir Please let me know the inputs for my code. I am ready to take suggestions and improve further.
-=======
-### Hi, Sir Please let me know the inputs for my code. I am ready to take suggestions and improve further.
