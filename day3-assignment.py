@@ -29,4 +29,3 @@ print(convert_list(nested_list))
 ### Hi Sir Please let me know the inputs for my code. I am ready to take suggestions and improve further.
 =======
 ### Hi, Sir Please let me know the inputs for my code. I am ready to take suggestions and improve further.
->>>>>>> 73a3d00f7d85b2669b0d49ae6cf1e58b79e57a1b
