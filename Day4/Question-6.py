@@ -13,7 +13,6 @@ class File:
                 if os.path.isfile(filepath):
                     size = os.path.getsize(filepath)
                     files.append((filename, size))
-        
         files.sort(key=lambda x: x[1], reverse=True)
         return files[:2]
 
@@ -26,10 +25,8 @@ class File:
                     file_mod_time = datetime.date.fromtimestamp(os.path.getmtime(filepath))
                     if file_mod_time > date:
                         latest_files.append((filename, file_mod_time))
-
         latest_files.sort(key=lambda x: x[1], reverse=True)
         return latest_files
-
 
 if __name__ == '__main__':
     path = r"C:\Users\Praveen\Desktop\handson\files"

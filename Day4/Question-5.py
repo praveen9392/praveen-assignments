@@ -11,8 +11,8 @@ class Poly:
 
     def __repr__(self):
         return f"Poly({', '.join(map(str, self.cof))})"
-
-a = Poly(1, 2, 3)
-b = Poly(1, 0, 1, 1, 2, 3)
-c = a + b
-print(c)
+if __name__ == "__main__':
+    a = Poly(1, 2, 3)
+    b = Poly(1, 0, 1, 1, 2, 3)
+    c = a + b
+    print(c)
