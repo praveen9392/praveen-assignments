@@ -2,12 +2,38 @@
 <html>
 <head>
     <title>Update For Today</title>
+    <style>
+        body {
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h2 {
+            color: #4a148c;
+        }
+
+        textarea {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #4a148c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <h2>Write your note for today:</h2>
     <form action="/updatefortoday" method="POST">
         <textarea name="content" rows="10" cols="100"></textarea><br><br>
-        <button type="submit" name="action" value="share">Share</button>
+        <button type="submit">Share</button>
     </form>
 </body>
 </html>

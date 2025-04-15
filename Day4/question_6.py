@@ -28,10 +28,11 @@ class File:
         latest_files.sort(key=lambda x: x[1], reverse=True)
         return latest_files
 
-if __name__ == '__main__':
-    path = r"C:\Users\Praveen\Desktop\handson\files"
-    fs = File(path)    
-    max_files = fs.getMaxSizeFile()
-    print("Largest files:", max_files)
-    latest_files = fs.getLatestFiles(datetime.date(2018, 2, 1))
-    print("Files modified after 1st Feb 2018:", latest_files)
+# if __name__ == '__main__':
+#     path = r"C:\Users\Praveen\Desktop\handson\files"
+#     fs = File(path)    
+#     max_files = fs.getMaxSizeFile()
+#     print("Largest files:", max_files)
+#     latest_files = fs.getLatestFiles(datetime.date(2018, 2, 1))
+#     print("Files modified after 1st Feb 2018:", latest_files)
+

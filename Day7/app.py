@@ -7,7 +7,7 @@ def updatefortoday():
     global content
     if request.method == 'POST':
         content = request.form['content']
-        return redirect(url_for(share))
+        return redirect(url_for('share'))
     return render_template("update.html", data=content)
 
 @app.route("/share", methods=['GET'])
