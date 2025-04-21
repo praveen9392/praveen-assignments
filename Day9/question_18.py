@@ -12,7 +12,8 @@ class Hello(BaseModel):
     format: str = "json"
 
 @app.get("/helloj")
-async def helloj_get(hello:Hello):
+async def helloj_get():
+    hello = Hello()
     return {"name": hello.name, "format": hello.format}
 
 @app.post("/helloj")
